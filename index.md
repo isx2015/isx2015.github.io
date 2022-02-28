@@ -1,17 +1,3 @@
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
 # Solutions to Artin's Algebra
 ## Chapter 1
 ---
@@ -148,7 +134,16 @@ by associative law, $(E_R A)E_C=E_R (A E_C)$, so the effects are the same if swi
 By using recursive formula of determinant on the first row of this matrix $A_{n} \Rightarrow \operatorname{det} A_{n}=2 \operatorname{det} A_{n-1}-\operatorname{det} A_{n-2}$
 
 The first three matrices are:
-$ A_{1}=(2),A_{2}=\left(\begin{array}{cc}2 & -1 \\ -1 & 2\end{array}\right), A_{3}=\left(\begin{array}{ccc}2 & -1 & \\ -1 & 2 & -1 \\ & -1 & 2\end{array}\right)$
+
+$$ A_{1}=(2),
+A_{2}=\left(
+    \begin{array}{cc}2 & -1 \\
+    -1 & 2\end{array}\right),
+A_{3}=\left(
+    \begin{array}{ccc}2 & -1 & \\
+     -1 & 2 & -1 \\
+      & -1 & 2\end{array}\right)
+$$
 
 So
 $\operatorname{det} A_{1}=2, \operatorname{det} A_{2}=3, \operatorname{det} A_{3}=4$.
