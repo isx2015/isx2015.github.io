@@ -19,8 +19,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    # - title: Algebra by Artin
-    #   output: web
+    - title: Algebra by Artin
+      output: web
 
       subfolders:
         - title: Chapter 1-Matrices
