@@ -12,7 +12,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-# Solutions to Artin's Algebra
+## Solutions to Artin's Algebra
 ## Chapter 1
 ---
 
