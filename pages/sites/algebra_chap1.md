@@ -46,8 +46,6 @@ $$
 \end{array}
 $$
 
-{% include image.html file="q1.11.png" url="http://jekyllrb.com" alt="Jekyll" caption="" %}
-
 <img src="images/q1.11.png" width="200" height="100">
 
 transpose $C=AB$ gives similar result for lower triangular matrices.

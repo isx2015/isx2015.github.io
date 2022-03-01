@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Contents
-  version: .
+  version: 
   folders:
 
   - title: About
@@ -19,11 +19,10 @@ entries:
     output: web, pdf
     folderitems:
 
-      subfolders:
-      - title: Algebra by Artin
-        output: web, pdf
-        subfolderitems:
+    # - title: Algebra by Artin
+    #   output: web
 
+      subfolders:
         - title: Chapter 1-Matrices
           url: /algebra_chap1.html
           output: web, pdf
