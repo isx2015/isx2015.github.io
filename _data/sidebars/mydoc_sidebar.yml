@@ -19,8 +19,8 @@ entries:
     output: web
     folderitems:
 
-    # - title: Worked solutions to books
-    #   output: web
+    - title: Worked solutions to books
+      output: web
 
       subfolders:
       - title: Algebra by Artin
