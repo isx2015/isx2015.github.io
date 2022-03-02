@@ -11,9 +11,9 @@ folder: sites
 ## Recently updated:
 [Algebra(Artin) Chapter 1](algebra_chap1)
 
-## This website aims to:
+## Aims:
 
-**collect** and **share** what I have learnt.
+To **collect** and **share** what I have learnt.
 
 This includes but not limited to subjects such as:
 * **Maths**
