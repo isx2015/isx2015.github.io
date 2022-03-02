@@ -48,7 +48,7 @@ $$
 
 <!-- <img src="images/q1.11.png" width="100" height="50"> -->
 
-{% include image.html file="q1.11.png" alt="" caption="" max-width="400" %}
+{% include image.html file="q1.11.png" alt="" caption="relations between indices" max-width="400" %}
 
 transpose $C=AB$ gives similar result for lower triangular matrices.
 ### **Q1.13**
