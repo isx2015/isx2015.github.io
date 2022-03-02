@@ -46,7 +46,9 @@ $$
 \end{array}
 $$
 
-<img src="images/q1.11.png" width="100" height="50">
+<!-- <img src="images/q1.11.png" width="100" height="50"> -->
+
+{% include image.html file="q1.11.png" url="" alt="" caption="" max-width="100" %}
 
 transpose $C=AB$ gives similar result for lower triangular matrices.
 ### **Q1.13**
