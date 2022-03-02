@@ -2,7 +2,7 @@
 title: Solutions to Artin's Algebra Chapter 1
 keywords: solution, artin, algebra, chapter,
 last_updated: 
-# summary: ""
+summary: ""
 sidebar: mydoc_sidebar
 permalink: algebra_chap1.html
 folder: sites

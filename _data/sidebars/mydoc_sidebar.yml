@@ -19,18 +19,19 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Algebra by Artin
-      output: web
-
       subfolders:
+      - title: Algebra by Artin
+        output: web
+        subfolderitems:
+
         - title: Chapter 1-Matrices
           url: /algebra_chap1.html
-          output: web, pdf
+          output: web
 
         - title: Chapter 2-Groups
           url: 
-          output: web, pdf
+          output: web
           
         - title: Chapter 3-Vector Spaces
           url: 
-          output: web, pdf
+          output: web
