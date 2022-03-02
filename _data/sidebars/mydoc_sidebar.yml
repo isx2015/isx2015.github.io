@@ -16,8 +16,11 @@ entries:
       type: homepage
 
   - title: Worked solutions to books
-    output: web, pdf
+    output: web
     folderitems:
+
+    - title: Worked solutions to books
+      output: web
 
       subfolders:
       - title: Algebra by Artin
