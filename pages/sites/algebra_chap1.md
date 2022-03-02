@@ -46,7 +46,7 @@ $$
 \end{array}
 $$
 
-<img src="images/q1.11.png" width="200" height="100">
+<img src="images/q1.11.png" width="100" height="50">
 
 transpose $C=AB$ gives similar result for lower triangular matrices.
 ### **Q1.13**
