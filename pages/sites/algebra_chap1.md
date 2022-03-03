@@ -256,7 +256,7 @@ $$
 ### **Q4.6**
 Prove that 
 
-$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$, 
+$$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$$, 
 if $A$ and $D$ are square blocks.
 
 ---
