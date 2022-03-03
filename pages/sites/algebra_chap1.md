@@ -24,6 +24,9 @@ MathJax = {
 
 
 ### **Q1.11**
+Prove that the product of upper triangular matrices is upper triangular.
+
+---
 Suppose $A, B$ are triangular $n \times n$ matrices. Let $C=A B$.
 
 $$
@@ -51,7 +54,11 @@ $$
 {% include image.html file="q1.11.png" alt="" caption="relations between indices" max-width="400" %}
 
 transpose $C=AB$ gives similar result for lower triangular matrices.
+
 ### **Q1.13**
+A square matrix $A$ is nilpotent if $A^{k}=0$ for some $k>0$. Prove that if $A$ is nilpotent, then $I+A$ is invertible. Do this by finding the inverse.
+
+---
 $$
 (I+A)\left[I-A+A^{2}-\ldots+(-1)^{k} A^{k-1}\right]=I+(-1)^{k-1} A^{k}=I
 $$
@@ -68,6 +75,9 @@ $$
 $$
 
 ### **Q1.15**
+With $A$ arbitrary, determine the products $e_{i j} A, A e_{i j}, e_{j} A e_{k}, e_{i i} A e_{j j}$, and $e_{i j} A e_{k \ell}$
+
+---
 Using identities 1.1.23/25:
 
 $$
@@ -84,6 +94,13 @@ Then $e_{i j} A e_{k l}=\sum_{m, n} a_{m n} e_{i j} e_{m n} e_{k l}=\sum_{m=j, n
 $=\sum_{m=j \atop n=k} a_{m n} e_{i l}=a_{j k} e_{i l}$
 
 ### **Q2.9**
+Consider an arbitrary system of linear equations $A X=B$, where $A$ and $B$ are real matrices.
+
+(a) Prove that if the system of equations $A X=B$ has more than one solution then it has infinitely many.
+
+(b) Prove that if there is a solution in the complex numbers then there is also a real solution.
+
+---
 **(a)**
 
 Suppose there're two solutions $X_1,X_2$, then
@@ -136,7 +153,9 @@ $$
 $$
 
 ### **Q2.10**
+Let $A$ be a square matrix. Show that if the system $A X=B$ has a unique solution for some particular column vector $B$, then it has a unique solution for all $B$.
 
+---
 Reduce $A, B$ to row echelon matrices $A', B'$.
 
 Since $A$ is square, $A'$ is either $I$ or its bottom row is zero (by Lemma 1.2.15).
@@ -148,12 +167,28 @@ Now let $A'$ be of dimension n, then $X$ is also n-dimensional. With last row of
 So $A$ is invertible(Theorem 1.2.16), and the unique solution to the system is $X=A^{-1}B$ for every column vector $B$.
 
 ### **Q3.3**
+Suppose we make first a row operation, and then a column operation, on a matrix $A$. Explain what happens if we switch the order of these operations, making the column operation first, followed by the row operation.
 
+---
 Let elementary row and column matrices be $E_R$ and $E_C$,
 
 by associative law, $(E_R A)E_C=E_R (A E_C)$, so the effects are the same if switching the order.
 
 ### **Q4.3**
+Compute the determinant of the following $n \times n$ matrix using induction on $n$ :
+$$
+\left[\begin{array}{rrrrrr}
+2 & -1 & & & & \\
+-1 & 2 & -1 & & & \\
+& -1 & 2 & -1 & & \\
+& & -1 & \cdot & & \\
+& & & & \cdot & & \\
+& & & & & 2 & -1 \\
+& & & & & -1 & 2
+\end{array}\right]
+$$
+
+---
 By using recursive formula of determinant on the first row of this matrix $A_{n} \Rightarrow \operatorname{det} A_{n}=2 \operatorname{det} A_{n-1}-\operatorname{det} A_{n-2}$
 
 The first three matrices are:
@@ -179,5 +214,72 @@ $\operatorname{det} A_{k+1}=2 \operatorname{det} A_{k} -\operatorname{det} A_{k-
 
 Hence det $A_{n}=n+1$.
 
-### **Q**
+### **Q4.4**
+Let $A$ be an $n \times n$ matrix. Determine $\operatorname{det}(-A)$ in terms of $\operatorname{det} A$.
 
+---
+From the relation
+
+$$
+det(rA)=r^n det(A) \\
+(r \text{ is a constant,} n \text{ is the dimension of square matrix } A )
+$$
+
+$$
+\Rightarrow det(-A)=(-1)^n det(A)
+$$
+
+### **Q4.5**
+Use row reduction to prove that $\operatorname{det} A^{t}=\operatorname{det} A .$
+
+---
+To define $det(A^t)$ and $det(A)$, $A$ must be square.
+
+when $A$ is not invertible, both sides are zero, so it holds.
+
+when $A$ is invertible, then we have series of elementary matrices $E_k$ such that,
+
+$$
+E_k...E_1 A=I,\\
+\text{transpose it}\Rightarrow A^tE_1^t...E_k^t=I\\
+\text{so }det(I)=det(E_k...E_1 A)=det(A^tE_1^t...E_k^t)\\
+$$
+Because $det(AB)=det(A)det(B)$, and the determinant of transpose of elementary matrices doesn't change, we get,
+$$
+det(A^t)=det(A)
+$$
+
+### **Q4.6**
+Prove that $\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)$, if $A$ and $D$ are square blocks.
+
+---
+
+### **Q5.3**
+Prove that the inverse of a permutation matrix $P$ is its transpose.
+
+---
+Let permutation matrix be $P=\sum_{i} e_{pi, i}$. Where $pi\equiv p(i)$ (permutation $p$).
+Thus, $P^{t}=\sum_{j} e_{j, p j}$ (reverse the order of indices of $e$),
+
+$$
+\Rightarrow P P^{t}=\sum_{i, j} e_{pi, i} e_{j, pj}=\sum_{i=j} e_{pi, pi}=I
+$$
+
+### **Q5.4**
+What is the permutation matrix associated to the permutation of $n$ indices defined by $p(\mathbf{i})=\mathbf{n}-\mathbf{i}+\mathbf{1}$ ? What is the cycle decomposition of $p ?$ What is its sign?
+
+---
+$p(1)=n$ 
+
+$p(2)=n-1$
+
+…
+
+$p(n-1)=2$
+
+$p(n)=1$
+
+the permutation interchanges row $i$ and row $n-i+1$, symbolically this corresponds to matrix $\left(\begin{array}{lll}1 & & \\ & \ddots & \\ & & 1\end{array}\right)$
+cycle decomposition is $(1,n )(2, n-1) \cdots\left(\frac{n}{2}, \frac{n}{2}+1\right)$ if $n$ is even, $(1,n )(2, n-1) \cdots\left(\frac{n+1}{2}, \frac{n+1}{2}\right)$ if $n$ is odd.
+
+Hence, the sign of the permutation is + if n is even, - if n is odd.
