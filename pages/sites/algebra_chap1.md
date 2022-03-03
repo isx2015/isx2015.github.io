@@ -240,22 +240,23 @@ when $A$ is not invertible, both sides are zero, so it holds.
 when $A$ is invertible, then we have series of elementary matrices $E_k$ such that,
 
 $$
+\begin{array}{l}
 E_k...E_1 A=I,\\
-
 \text{transpose it}\Rightarrow A^tE_1^t...E_k^t=I\\
-
 \text{so }det(I)=det(E_k...E_1 A)=det(A^tE_1^t...E_k^t)\\
-
+\end{array}
 $$
 
 Because $det(AB)=det(A)det(B)$, and the determinant of transpose of elementary matrices doesn't change, we get,
+
 $$
 det(A^t)=det(A)
 $$
 
 ### **Q4.6**
 Prove that 
-$\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)$, 
+
+$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$, 
 if $A$ and $D$ are square blocks.
 
 ---
@@ -286,7 +287,8 @@ $p(n-1)=2$
 $p(n)=1$
 
 the permutation interchanges row $i$ and row $n-i+1$, symbolically this corresponds to matrix 
-$\left(\begin{array}{lll}1 & & \\ & \ddots & \\ & & 1\end{array}\right)$
+
+$$\left(\begin{array}{lll}1 & & \\ & \ddots & \\ & & 1\end{array}\right)$$
 
 cycle decomposition is $(1,n )(2, n-1) \cdots\left(\frac{n}{2}, \frac{n}{2}+1\right)$ if $n$ is even, $(1,n )(2, n-1) \cdots\left(\frac{n+1}{2}, \frac{n+1}{2}\right)$ if $n$ is odd.
 
