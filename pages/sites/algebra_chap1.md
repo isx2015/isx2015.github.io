@@ -301,7 +301,7 @@ Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$
 ---
 First prove the necessary condition:
 
-Suppose $\operatorname{det} A \neq \pm 1$
+Assume $\operatorname{det} A \neq \pm 1$
 
 The $(i, j)$ th entries of $A^{-1}$ is $$\left(A^{-1}\right)_{i j} = \frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$$
 
@@ -311,9 +311,9 @@ But $\operatorname{det} A=\sum_{\nu}(-1)^{j+\nu} a_{j \nu} \operatorname{det} A_
 
 $\operatorname{det} A$ divides $\operatorname{det} A_{j i}$ ony if $\operatorname{det} A \leqslant \operatorname{det} A_{j i}$
 
-However, this is not alway true. Consider the terms in $\operatorname{det} A$:  $\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu}$  could be postive and $(-1)^{j+i} a_{j i}$ can be greater than 1.
+However, this is not alway true. Consider the terms in $\operatorname{det} A$:  $\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu} \operatorname{det} A_{j\nu}$  could be postive and $(-1)^{j+i} a_{j i}$ can be greater than 1.
 
-So $\operatorname{det} A=\pm 1$.
+So the assumption is false and $\operatorname{det} A=\pm 1$.
 
 Now prove the sufficient condition:
 
