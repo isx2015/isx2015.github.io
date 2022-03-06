@@ -11,7 +11,7 @@ folder: sites
 <script>
 MathJax = {
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']], [['$$', '$$']
   },
   svg: {
     fontCache: 'global'
