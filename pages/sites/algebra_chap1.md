@@ -256,7 +256,8 @@ $$
 ### **Q4.6**
 Prove that 
 
-$$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$$, 
+$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$
+
 if $A$ and $D$ are square blocks.
 
 ---
@@ -293,3 +294,31 @@ $$\left(\begin{array}{lll}1 & & \\ & \ddots & \\ & & 1\end{array}\right)$$
 cycle decomposition is $(1,n )(2, n-1) \cdots\left(\frac{n}{2}, \frac{n}{2}+1\right)$ if $n$ is even, $(1,n )(2, n-1) \cdots\left(\frac{n+1}{2}, \frac{n+1}{2}\right)$ if $n$ is odd.
 
 Hence, the sign of the permutation is + if n is even, - if n is odd.
+
+### **Q6.2**
+Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$ is invertible, and that its inverse $A^{-1}$ has integer entries, if and only if $\operatorname{det} A=\pm 1$.
+
+---
+First prove the necessary condition:
+
+Suppose $\operatorname{det} A \neq \pm 1$
+
+The $(i, j)$ th entries of $A^{-1}$ is $\left(A^{-1}\right)_{i j}=\frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$
+
+So $\left(A^{-1}\right)_{i j}$ is integer iff $\operatorname{det} A$ divides $\operatorname{det} A_{ji}$
+
+But $\operatorname{det} A=\sum_{\nu}(-1)^{j+\nu} a_{j \nu} \operatorname{det} A_{j \nu}=\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu} \operatorname{det} A_{j\nu}$ $+(-1)^{j+i} a_{j i} \operatorname{det} A_{j i}$
+
+$\operatorname{det} A$ divides $\operatorname{det} A_{j i}$ ony if $\operatorname{det} A \leqslant \operatorname{det} A_{j i}$
+
+However, this is not alway true. Consider the terms in $\operatorname{det} A$:  $\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu}$  could be postive and $(-1)^{j+i} a_{j i}$ can be greater than 1 .
+
+So $\operatorname{det} A=\pm 1$
+
+Now prove the sufficient condition:
+
+Since $\operatorname{det} A=\pm 1$,
+
+the entry $\left(A^{-1}\right)_{i j}=(-1)^{m} \operatorname{det} A_{j i}$ must be integer because det $A_{j i}$ is integer (entries of $A$ are integers by assumption). $\operatorname{det} A \neq 0$, so A is invertible. 
+
+Q.E.D.
