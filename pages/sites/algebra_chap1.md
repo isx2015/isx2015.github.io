@@ -304,6 +304,7 @@ First prove the necessary condition:
 Suppose $\operatorname{det} A \neq \pm 1$
 
 The $(i, j)$ th entries of $A^{-1}$ is 
+
 $\left(A^{-1}\right)_{i j}=\frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$
 
 So 
