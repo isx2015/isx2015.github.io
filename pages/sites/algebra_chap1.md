@@ -300,16 +300,25 @@ Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$
 
 ---
 First prove the necessary condition:
+
 Suppose $\operatorname{det} A \neq \pm 1$
+
 The $(i, j)$ th entries of $A^{-1}$ is $\left(A^{-1}\right)_{i j}=\frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$
+
 So $\left(A^{-1}\right)_{i j}$ is integer iff $\operatorname{det} A$ divides $\operatorname{det} A_{ji}$
+
 But $\operatorname{det} A=\sum_{\nu}(-1)^{j+\nu} a_{j \nu} \operatorname{det} A_{j \nu}=\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu} \operatorname{det} A_{j\nu}$ $+(-1)^{j+i} a_{j i} \operatorname{det} A_{j i}$
+
 $\operatorname{det} A$ divides $\operatorname{det} A_{j i}$ ony if $\operatorname{det} A \leqslant \operatorname{det} A_{j i}$
-However, this is not alway true. Consider the terms in $\operatorname{det} A$:  $\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu}$  could be postive and $(-1)^{j+i} a_{j i}$ can be greater than 1 .
-So $\operatorname{det} A=\pm 1$
+
+However, this is not alway true. Consider the terms in $\operatorname{det} A$:  $\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu}$  could be postive and $(-1)^{j+i} a_{j i}$ can be greater than 1.
+
+So $\operatorname{det} A=\pm 1$.
 
 Now prove the sufficient condition:
+
 Since $\operatorname{det} A=\pm 1$,
+
 the entry $\left(A^{-1}\right)_{i j}=(-1)^{m} \operatorname{det} A_{j i}$ must be integer because det $A_{j i}$ is integer (entries of $A$ are integers by assumption). $\operatorname{det} A \neq 0$, so A is invertible. 
 
 Q.E.D.
