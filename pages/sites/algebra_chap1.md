@@ -303,9 +303,11 @@ First prove the necessary condition:
 
 Suppose $\operatorname{det} A \neq \pm 1$
 
-The $(i, j)$ th entries of $ A^{-1}$ is $\left(A^{-1}\right)_{i j}=\frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$
+The $(i, j)$ th entries of $A^{-1}$ is 
+$\left(A^{-1}\right)_{i j}=\frac{(-1)^{i+j}}{\operatorname{det} A} \operatorname{det} A_{j i}$
 
-So $\left(A^{-1}\right)_{i j}$ is integer iff $\operatorname{det} A$ divides $\operatorname{det} A_{ji}$
+So 
+$\left(A^{-1}\right)_{i j}$ is integer iff $\operatorname{det} A$ divides $\operatorname{det} A_{ji}$
 
 But $\operatorname{det} A=\sum_{\nu}(-1)^{j+\nu} a_{j \nu} \operatorname{det} A_{j \nu}=\sum_{\nu \neq i}(-1)^{j+\nu} a_{j\nu} \operatorname{det} A_{j\nu}$ $+(-1)^{j+i} a_{j i} \operatorname{det} A_{j i}$
 
@@ -319,6 +321,8 @@ Now prove the sufficient condition:
 
 Since $\operatorname{det} A=\pm 1$,
 
-the entry $\left(A^{-1}\right)_{i j}=(-1)^{m} \operatorname{det} A_{j i}$ must be integer because det $A_{j i}$ is integer (entries of $A$ are integers by assumption). $\operatorname{det} A \neq 0$, so A is invertible. 
+the entry 
+$\left(A^{-1}\right)_{i j}=(-1)^{m} \operatorname{det} A_{j i}$ must be integer because det $A_{j i}$ is integer (entries of $A$ are integers by assumption). $\operatorname{det} A \neq 0$, 
+so A is invertible. 
 
 Q.E.D.
