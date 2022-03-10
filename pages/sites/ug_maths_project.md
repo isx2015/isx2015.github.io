@@ -26,6 +26,7 @@ MathJax = {
 
 ## Normal form of the bifurcation
 It is a iterative map $F: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ such that
+
 $$\boldsymbol{x}_{n+1}= F(\boldsymbol{x_n})=\begin{cases}A_{L} \boldsymbol{x}+\boldsymbol{m} & x \leqslant 0 \\ A_{R} \boldsymbol{x_n}+\boldsymbol{m} & x \geqslant 0\end{cases}$$
 
 where 
@@ -51,15 +52,15 @@ Number of iterations $n=2000$ or $n=500$
 Following pictures are observed.
 
 {% include image.html file="pic_projects/n=2000(5).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=500(2).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=500(3).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=500(5).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=500(15).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=500(20).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=2000(10).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=2000(20).png" alt="" max-width="400" %}
-{% include image.html file="pic_projects/n=n=2000(22).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(2).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(3).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(5).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(15).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(20).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=2000(10).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=2000(20).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=2000(22).png" alt="" max-width="400" %}
 
 Some uninteresting pictures where a straight line appears are omitted. For eaxmple,
 
-{% include image.html file="pic_projects/n=n=500(7).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=500(7).png" alt="" max-width="400" %}
