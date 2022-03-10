@@ -23,7 +23,7 @@ MathJax = {
 </script>
 
 
-**<p style="color:#D95319">\*\*\*\*IN PROGRESS\*\*\*\*</p>**
+<!-- **<p style="color:#D95319">\*\*\*\*IN PROGRESS\*\*\*\*</p>** -->
 
 
 ## Normal form of the bifurcation
