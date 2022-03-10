@@ -8,12 +8,13 @@ entries:
 
   - title: About
     output: web, pdf
-    folderitems:
+    url: /index.html
+    # folderitems:
 
-    - title: About
-      url: /index.html
-      output: web, pdf
-      type: homepage
+    # - title: About
+    #   url: /index.html
+    #   output: web, pdf
+    #   type: homepage
 
   - title: Worked solutions to books
     output: web

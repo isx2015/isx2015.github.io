@@ -9,7 +9,7 @@ folder: sites
 ---
 
 ## Recently updated:
-[Algebra(Artin) Chapter 1](algebra_chap1)
+[Algebra(Artin) Chapter 1](algebra_chap1.html)
 
 ## Aims:
 
