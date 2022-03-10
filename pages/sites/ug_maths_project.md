@@ -28,10 +28,11 @@ $$\boldsymbol{x}_{n+1}= F(\boldsymbol{x_n})=\begin{cases}A_{L} \boldsymbol{x}+\b
 
 where 
 
-$A_{\alpha}=\left(\begin{array}{cc}T_{\alpha} & 1 \\ -D_{\alpha} & 0\end{array}\right)$ $\quad (\alpha=L \text{ or } R)$,
+$$A_{\alpha}=\left[\begin{array}{cc}T_{\alpha} & 1 \\ -D_{\alpha} & 0\end{array}\right],\quad (\alpha=L \text{ or } R)$$
 
-$\boldsymbol{m}=\left(\begin{array}{l}\mu \\ 0\end{array}\right), \quad \boldsymbol{x_k}=\left(\begin{array}{l}x_{k}\\y_{k}\end{array}\right)$
 
-In matrix form: 
+$$\boldsymbol{m}=\left[\begin{array}{l}\mu \\ 0\end{array}\right],(\mu \text{ is a constant}) \quad \boldsymbol{x_k}=\left[\begin{array}{l}x_{k}\\y_{k}\end{array}\right]$$
 
-$\left(\begin{array}{l}x_{n+1} \\ y_{n+1}\end{array}\right)=\left(\begin{array}{cc}T_{\alpha} & 1 \\ -D_{\alpha} & 0\end{array}\right)\left(\begin{array}{l}x_{n} \\ y_{n}\end{array}\right)+\left(\begin{array}{l}\mu \\ 0\end{array}\right)$
+In matrix notation: 
+
+$$\left[\begin{array}{l}x_{n+1} \\ y_{n+1}\end{array}\right]=\left[\begin{array}{cc}T_{\alpha} & 1 \\ -D_{\alpha} & 0\end{array}\right]\left[\begin{array}{l}x_{n} \\ y_{n}\end{array}\right]+\left[\begin{array}{l}\mu \\ 0\end{array}\right]$$
