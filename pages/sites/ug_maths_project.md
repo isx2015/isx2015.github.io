@@ -22,7 +22,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-**<font color="#D95319">\*\*\*\*IN PROGRESS\*\*\*\*</font>**
+**<font color="#D95319">*****IN PROGRESS*****</font>**
 
 ## Normal form of the bifurcation
 It is a iterative map $F: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ such that
@@ -49,4 +49,17 @@ Start the iteration $F$ from origin $$ \left[\begin{array}{l}0 \\ 0\end{array}\r
 Number of iterations $n=2000$ or $n=500$
 
 Following pictures are observed.
+
 {% include image.html file="pic_projects/n=2000(5).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=500(2).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=500(3).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=500(5).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=500(15).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=500(20).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=2000(10).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=2000(20).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=n=2000(22).png" alt="" max-width="400" %}
+
+Some uninteresting pictures where a straight line appears are omitted. For eaxmple,
+
+{% include image.html file="pic_projects/n=n=500(7).png" alt="" max-width="400" %}
