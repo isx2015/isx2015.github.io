@@ -45,6 +45,8 @@ $$\left[\begin{array}{l}x_{n+1} \\ y_{n+1}\end{array}\right]=\left[\begin{array}
 
 Four parameters $T_{L}, D_{L}, T_{R}, D_{R}$ are randomly chosen from the interval $(-2,2)$. 
 
+Let $\mu=1$ without loss of generality.
+
 Start the iteration $F$ from origin $$ \left[\begin{array}{l}0 \\ 0\end{array}\right]$$
 
 Number of iterations $n=2000$ or $n=500$
@@ -61,6 +63,18 @@ Following pictures are observed.
 {% include image.html file="pic_projects/n=2000(20).png" alt="" max-width="400" %}
 {% include image.html file="pic_projects/n=2000(22).png" alt="" max-width="400" %}
 
-Some uninteresting pictures where a straight line appears are omitted. For eaxmple,
+Some uninteresting pictures where a straight line appears are omitted. For example,
 
 {% include image.html file="pic_projects/n=500(7).png" alt="" max-width="400" %}
+
+
+### **Restrictions on $A_R$**
+Now if we put restriction on $A_R$, i.e. $T_{R}, D_{R}$, such that under $n$ iterations on the right, the point lands on y-axis:
+
+$$F^n(O)=\left[\begin{array}{l}0 \\ y_n\end{array}\right]$$
+
+Let $y_n=-2$ in our case.
+
+Following are observed.
+
+{% include image.html file="pic_projects/f3.gif" alt="" max-width="400" %}
