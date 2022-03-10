@@ -22,9 +22,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-
-<!-- **<p style="color:#D95319">\*\*\*\*IN PROGRESS\*\*\*\*</p>** -->
-
+<font color="#D95319">**\*\*\*\*IN PROGRESS\*\*\*\***</font>
 
 ## Normal form of the bifurcation
 It is a iterative map $F: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ such that
