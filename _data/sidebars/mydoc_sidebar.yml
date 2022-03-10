@@ -8,13 +8,19 @@ entries:
 
   - title: About
     output: web, pdf
-    url: /index.html
-    # folderitems:
+    folderitems:
+    - title: About
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
-    # - title: About
-    #   url: /index.html
-    #   output: web, pdf
-    #   type: homepage
+  - title: Maths Project
+    output: web, pdf
+    folderitems:
+    - title: Maths Project
+      url: /ug_maths_project.html
+      output: web, pdf
+
 
   - title: Worked solutions to books
     output: web
