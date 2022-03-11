@@ -73,8 +73,21 @@ Now if we put restriction on $A_R$, i.e. $T_{R}, D_{R}$, such that under $n$ ite
 
 $$F^n(O)=\left[\begin{array}{l}0 \\ y_n\end{array}\right]$$
 
+It is no doubt that $$\left[\begin{array}{l}0 \\ y_n\end{array}\right]$$ will then be mapped to some point on the x-axis: $$\left[\begin{array}{}y_n+\mu \\ 0\end{array}\right]$$
+
 Let $y_n=-2$ in our case.
 
-Following are observed.
+Still let $\mu=1$.
+
+Following ploygons are generated for different $n$.
+
+{% include image.html file="pic_projects/n=3(1).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=6(2).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=13(5).png" alt="" max-width="400" %}
+{% include image.html file="pic_projects/n=20(9).png" alt="" max-width="400" %}
+
+
+
+For a series of $n$, under the same scale in axes, it is easy to see the behaviour of the ploygons for increasing $n$ with an GIF image:
 
 {% include image.html file="pic_projects/f3.gif" alt="" max-width="400" %}
