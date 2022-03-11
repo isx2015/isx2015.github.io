@@ -25,15 +25,14 @@ entries:
   - title: Worked solutions to books
     output: web
     folderitems:
-
     - title: Worked solutions to books
+      url: /sol_books.html
       output: web
 
       subfolders:
       - title: Algebra (Artin)
         output: web
         subfolderitems:
-
         - title: Chapter 1-Matrices
           url: /algebra_chap1.html
           output: web
