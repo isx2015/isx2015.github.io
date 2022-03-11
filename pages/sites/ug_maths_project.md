@@ -25,7 +25,7 @@ MathJax = {
 **<font color="#D95319">*****IN PROGRESS*****</font>**
 
 ## Normal form of the bifurcation
-It is a iterative map $F: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ such that
+It is an iterative map $F: \mathbb{R}^{2} \rightarrow \mathbb{R}^{2}$ such that
 
 $$\boldsymbol{x}_{n+1}= F(\boldsymbol{x_n})=\begin{cases}A_{L} \boldsymbol{x}+\boldsymbol{m} & x \leqslant 0 \\ A_{R} \boldsymbol{x_n}+\boldsymbol{m} & x \geqslant 0\end{cases}$$
 
@@ -88,6 +88,6 @@ Following ploygons are generated for different $n$.
 
 
 
-For a series of $n$, under the same scale in axes, it is easy to see the behaviour of the ploygons for increasing $n$ with an GIF image:
+For a series of $n$, under the same scale in axes, it is easy to see the behaviour of the ploygons for increasing $n$ with a GIF image:
 
 {% include image.html file="pic_projects/f3.gif" alt="" max-width="400" %}
