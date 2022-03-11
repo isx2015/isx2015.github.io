@@ -30,7 +30,7 @@ entries:
       output: web
 
       subfolders:
-      - title: Algebra by Artin
+      - title: Algebra (Artin)
         output: web
         subfolderitems:
 

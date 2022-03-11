@@ -1,5 +1,5 @@
 ---
-title: Artin's Algebra Chapter 1
+title: Algebra(Artin) Chapter 1
 keywords: solution, artin, algebra, chapter,
 last_updated: 
 summary: ""
