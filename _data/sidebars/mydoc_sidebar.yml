@@ -22,7 +22,7 @@ entries:
       output: web, pdf
 
 
-  - title: Worked solutions to books
+  - title: Worked Solutions
     output: web
     folderitems:
     - title: Worked solutions to books
@@ -44,3 +44,10 @@ entries:
         - title: Chapter 3-Vector Spaces
           url: 
           output: web
+
+  - title: test
+    output: web
+    folderitems:
+    - title: test1
+      url: /test/t1.html
+      output: web, pdf
