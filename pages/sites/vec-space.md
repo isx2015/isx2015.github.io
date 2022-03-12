@@ -8,6 +8,20 @@ permalink: vec-space.html
 folder: sites
 ---
 
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 ## Definitions
 
 **Def. 1**
@@ -47,3 +61,6 @@ $$
 > 2. $F$ is a subgroup of additive group $\mathbb{C^+}$
 > 3. $F \backslash\{0\}$ is a subgroup of the multiplicative group $\mathbb{C^\times}$
 
+**Def.3**
+
+A **vector space**
