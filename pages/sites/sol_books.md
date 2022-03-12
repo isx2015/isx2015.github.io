@@ -27,7 +27,7 @@ MathJax = {
 - Artin, M. Algebra (2nd Edition). Addison Wesley, 2010. ISBN: 9780132413770.
 
 A related resouce for this from MIT OCW:
-https://ocw.mit.edu/courses/mathematics/18-701-algebra-i-fall-2010/syllabus/
+<https://ocw.mit.edu/courses/mathematics/18-701-algebra-i-fall-2010/>
 
 - Shankar, Ramamurti. Principles of Quantum Mechanics(2nd Edition)
 

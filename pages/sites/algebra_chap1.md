@@ -168,7 +168,7 @@ Now let $A'$ be of dimension n, then $X$ is also n-dimensional. With last row of
 
 So $A$ is invertible(Theorem 1.2.16), and the unique solution to the system is $X=A^{-1}B$ for every column vector $B$.
 
-## The Matrix Transpose
+## Section 3 The Matrix Transpose
 **Q3.3**
 > Suppose we make first a row operation, and then a column operation, on a matrix $A$. Explain what happens if we switch the order of these operations, making the column operation first, followed by the row operation.
 

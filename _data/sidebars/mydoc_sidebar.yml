@@ -14,13 +14,19 @@ entries:
       output: web, pdf
       type: homepage
 
+  - title: Maths
+    output: web, pdf
+    folderitems:
+    - title: Vector Spaces
+      url: /vec-space.html
+      output: web, pdf
+
   - title: Projects
     output: web, pdf
     folderitems:
     - title: Maths Project
       url: /ug_maths_project.html
       output: web, pdf
-
 
   - title: Worked Solutions
     output: web
@@ -45,9 +51,9 @@ entries:
           url: 
           output: web
 
-  - title: test
-    output: web
-    folderitems:
-    - title: test1
-      url: /test/t1.html
-      output: web, pdf
+  # - title: test
+  #   output: web
+  #   folderitems:
+  #   - title: test1
+  #     url: /test/t1.html
+  #     output: web, pdf
