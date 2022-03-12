@@ -22,8 +22,8 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-
-### **Q1.11**
+## Section 1 The Basic Operations
+**Q1.11**
 Prove that the product of upper triangular matrices is upper triangular.
 
 ---
@@ -93,7 +93,8 @@ Express A in terms of matrix units: $A=\sum_{m, n} a_{m n} e_{m n}$
 Then $e_{i j} A e_{k l}=\sum_{m, n} a_{m n} e_{i j} e_{m n} e_{k l}=\sum_{m=j, n} a_{m n} e_{i n} e_{k l}$
 $=\sum_{m=j \atop n=k} a_{m n} e_{i l}=a_{j k} e_{i l}$
 
-### **Q2.9**
+## Section 2 Row reduction
+**Q2.9**
 Consider an arbitrary system of linear equations $A X=B$, where $A$ and $B$ are real matrices.
 
 (a) Prove that if the system of equations $A X=B$ has more than one solution then it has infinitely many.
@@ -152,7 +153,7 @@ $$
 \end{array}
 $$
 
-### **Q2.10**
+**Q2.10**
 Let $A$ be a square matrix. Show that if the system $A X=B$ has a unique solution for some particular column vector $B$, then it has a unique solution for all $B$.
 
 ---
@@ -166,7 +167,8 @@ Now let $A'$ be of dimension n, then $X$ is also n-dimensional. With last row of
 
 So $A$ is invertible(Theorem 1.2.16), and the unique solution to the system is $X=A^{-1}B$ for every column vector $B$.
 
-### **Q3.3**
+## The Matrix Transpose
+**Q3.3**
 Suppose we make first a row operation, and then a column operation, on a matrix $A$. Explain what happens if we switch the order of these operations, making the column operation first, followed by the row operation.
 
 ---
@@ -174,7 +176,8 @@ Let elementary row and column matrices be $E_R$ and $E_C$,
 
 by associative law, $(E_R A)E_C=E_R (A E_C)$, so the effects are the same if switching the order.
 
-### **Q4.3**
+## Section 4 Determinants
+**Q4.3**
 Compute the determinant of the following $n \times n$ matrix using induction on $n$ :
 $$
 \left[\begin{array}{rrrrrr}
@@ -214,7 +217,7 @@ $\operatorname{det} A_{k+1}=2 \operatorname{det} A_{k} -\operatorname{det} A_{k-
 
 Hence det $A_{n}=n+1$.
 
-### **Q4.4**
+**Q4.4**
 Let $A$ be an $n \times n$ matrix. Determine $\operatorname{det}(-A)$ in terms of $\operatorname{det} A$.
 
 ---
@@ -229,7 +232,7 @@ $$
 \Rightarrow det(-A)=(-1)^n det(A)
 $$
 
-### **Q4.5**
+**Q4.5**
 Use row reduction to prove that $\operatorname{det} A^{t}=\operatorname{det} A .$
 
 ---
@@ -253,7 +256,7 @@ $$
 det(A^t)=det(A)
 $$
 
-### **Q4.6**
+**Q4.6**
 Prove that 
 
 $$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$$
@@ -262,7 +265,8 @@ if $A$ and $D$ are square blocks.
 
 ---
 
-### **Q5.3**
+## Section 5 Permutation Matrices
+**Q5.3**
 Prove that the inverse of a permutation matrix $P$ is its transpose.
 
 ---
@@ -273,7 +277,7 @@ $$
 \Rightarrow P P^{t}=\sum_{i, j} e_{pi, i} e_{j, pj}=\sum_{i=j} e_{pi, pi}=I
 $$
 
-### **Q5.4**
+**Q5.4**
 What is the permutation matrix associated to the permutation of $n$ indices defined by $p(\mathbf{i})=\mathbf{n}-\mathbf{i}+\mathbf{1}$ ? What is the cycle decomposition of $p ?$ What is its sign?
 
 ---
@@ -295,7 +299,8 @@ cycle decomposition is $(1,n )(2, n-1) \cdots\left(\frac{n}{2}, \frac{n}{2}+1\ri
 
 Hence, the sign of the permutation is + if n is even, - if n is odd.
 
-### **Q6.2**
+## Section 6 Other Formulas for the Determinant
+**Q6.2**
 Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$ is invertible, and that its inverse $A^{-1}$ has integer entries, if and only if $\operatorname{det} A=\pm 1$.
 
 ---
@@ -322,3 +327,5 @@ Since $\operatorname{det} A=\pm 1$,
 the entry $$\left(A^{-1}\right)_{i j}=(-1)^{m} \operatorname{det} A_{j i}$$ must be integer because det $$A_{j i}$$ is integer (entries of $A$ are integers by assumption). $$\operatorname{det} A \neq 0$$, so A is invertible. 
 
 Q.E.D.
+
+## Miscellaneous Problems
