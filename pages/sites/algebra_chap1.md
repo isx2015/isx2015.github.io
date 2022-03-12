@@ -24,9 +24,9 @@ MathJax = {
 
 ## Section 1 The Basic Operations
 **Q1.11**
-Prove that the product of upper triangular matrices is upper triangular.
+> Prove that the product of upper triangular matrices is upper triangular.
 
----
+
 Suppose $A, B$ are triangular $n \times n$ matrices. Let $C=A B$.
 
 $$
@@ -55,10 +55,11 @@ $$
 
 transpose $C=AB$ gives similar result for lower triangular matrices.
 
-### **Q1.13**
-A square matrix $A$ is nilpotent if $A^{k}=0$ for some $k>0$. Prove that if $A$ is nilpotent, then $I+A$ is invertible. Do this by finding the inverse.
 
----
+**Q1.13**
+> A square matrix $A$ is nilpotent if $A^{k}=0$ for some $k>0$. Prove that if $A$ is nilpotent, then $I+A$ is invertible. Do this by finding the inverse.
+
+
 $$
 (I+A)\left[I-A+A^{2}-\ldots+(-1)^{k} A^{k-1}\right]=I+(-1)^{k-1} A^{k}=I
 $$
@@ -74,10 +75,10 @@ $$
 \end{array}
 $$
 
-### **Q1.15**
-With $A$ arbitrary, determine the products $e_{i j} A, A e_{i j}, e_{j} A e_{k}, e_{i i} A e_{j j}$, and $e_{i j} A e_{k \ell}$
+**Q1.15**
+> With $A$ arbitrary, determine the products $e_{i j} A, A e_{i j}, e_{j} A e_{k}, e_{i i} A e_{j j}$, and $e_{i j} A e_{k \ell}$
 
----
+
 Using identities 1.1.23/25:
 
 $$
@@ -95,13 +96,13 @@ $=\sum_{m=j \atop n=k} a_{m n} e_{i l}=a_{j k} e_{i l}$
 
 ## Section 2 Row reduction
 **Q2.9**
-Consider an arbitrary system of linear equations $A X=B$, where $A$ and $B$ are real matrices.
+> Consider an arbitrary system of linear equations $A X=B$, where $A$ and $B$ are real matrices.
+> 
+> (a) Prove that if the system of equations $A X=B$ has more than one solution then it has infinitely many.
+> 
+> (b) Prove that if there is a solution in the complex numbers then there is also a real solution.
 
-(a) Prove that if the system of equations $A X=B$ has more than one solution then it has infinitely many.
 
-(b) Prove that if there is a solution in the complex numbers then there is also a real solution.
-
----
 **(a)**
 
 Suppose there're two solutions $X_1,X_2$, then
@@ -154,9 +155,9 @@ $$
 $$
 
 **Q2.10**
-Let $A$ be a square matrix. Show that if the system $A X=B$ has a unique solution for some particular column vector $B$, then it has a unique solution for all $B$.
+> Let $A$ be a square matrix. Show that if the system $A X=B$ has a unique solution for some particular column vector $B$, then it has a unique solution for all $B$.
 
----
+
 Reduce $A, B$ to row echelon matrices $A', B'$.
 
 Since $A$ is square, $A'$ is either $I$ or its bottom row is zero (by Lemma 1.2.15).
@@ -169,16 +170,16 @@ So $A$ is invertible(Theorem 1.2.16), and the unique solution to the system is $
 
 ## The Matrix Transpose
 **Q3.3**
-Suppose we make first a row operation, and then a column operation, on a matrix $A$. Explain what happens if we switch the order of these operations, making the column operation first, followed by the row operation.
+> Suppose we make first a row operation, and then a column operation, on a matrix $A$. Explain what happens if we switch the order of these operations, making the column operation first, followed by the row operation.
 
----
+
 Let elementary row and column matrices be $E_R$ and $E_C$,
 
 by associative law, $(E_R A)E_C=E_R (A E_C)$, so the effects are the same if switching the order.
 
 ## Section 4 Determinants
 **Q4.3**
-Compute the determinant of the following $n \times n$ matrix using induction on $n$ :
+> Compute the determinant of the following $n \times n$ matrix using induction on $n$ :
 $$
 \left[\begin{array}{rrrrrr}
 2 & -1 & & & & \\
@@ -191,7 +192,7 @@ $$
 \end{array}\right]
 $$
 
----
+
 By using recursive formula of determinant on the first row of this matrix $A_{n} \Rightarrow \operatorname{det} A_{n}=2 \operatorname{det} A_{n-1}-\operatorname{det} A_{n-2}$
 
 The first three matrices are:
@@ -218,9 +219,9 @@ $\operatorname{det} A_{k+1}=2 \operatorname{det} A_{k} -\operatorname{det} A_{k-
 Hence det $A_{n}=n+1$.
 
 **Q4.4**
-Let $A$ be an $n \times n$ matrix. Determine $\operatorname{det}(-A)$ in terms of $\operatorname{det} A$.
+> Let $A$ be an $n \times n$ matrix. Determine $\operatorname{det}(-A)$ in terms of $\operatorname{det} A$.
 
----
+
 From the relation
 
 $$
@@ -233,9 +234,9 @@ $$
 $$
 
 **Q4.5**
-Use row reduction to prove that $\operatorname{det} A^{t}=\operatorname{det} A .$
+> Use row reduction to prove that $\operatorname{det} A^{t}=\operatorname{det} A .$
 
----
+
 To define $det(A^t)$ and $det(A)$, $A$ must be square.
 
 when $A$ is not invertible, both sides are zero, so it holds.
@@ -257,19 +258,19 @@ det(A^t)=det(A)
 $$
 
 **Q4.6**
-Prove that 
+> Prove that 
+>
+> $$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$$
+> 
+> if $A$ and $D$ are square blocks.
 
-$$\begin{array}{l}\operatorname{det}\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]=(\operatorname{det} A)(\operatorname{det} D)\end{array}$$
 
-if $A$ and $D$ are square blocks.
-
----
 
 ## Section 5 Permutation Matrices
 **Q5.3**
-Prove that the inverse of a permutation matrix $P$ is its transpose.
+> Prove that the inverse of a permutation matrix $P$ is its transpose.
 
----
+
 Let permutation matrix be $P=\sum_{i} e_{pi, i}$. Where $pi\equiv p(i)$ (permutation $p$).
 Thus, $P^{t}=\sum_{j} e_{j, p j}$ (reverse the order of indices of $e$),
 
@@ -278,9 +279,9 @@ $$
 $$
 
 **Q5.4**
-What is the permutation matrix associated to the permutation of $n$ indices defined by $p(\mathbf{i})=\mathbf{n}-\mathbf{i}+\mathbf{1}$ ? What is the cycle decomposition of $p ?$ What is its sign?
+> What is the permutation matrix associated to the permutation of $n$ indices defined by $p(\mathbf{i})=\mathbf{n}-\mathbf{i}+\mathbf{1}$ ? What is the cycle decomposition of $p ?$ What is its sign?
 
----
+
 $p(1)=n$ 
 
 $p(2)=n-1$
@@ -301,9 +302,9 @@ Hence, the sign of the permutation is + if n is even, - if n is odd.
 
 ## Section 6 Other Formulas for the Determinant
 **Q6.2**
-Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$ is invertible, and that its inverse $A^{-1}$ has integer entries, if and only if $\operatorname{det} A=\pm 1$.
+> Let $A$ be an $n \times n$ matrix with integer entries $a_{i j}$. Prove that $A$ is invertible, and that its inverse $A^{-1}$ has integer entries, if and only if $\operatorname{det} A=\pm 1$.
 
----
+
 First prove the necessary condition:
 
 Assume $\operatorname{det} A \neq \pm 1$
