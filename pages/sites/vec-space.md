@@ -28,9 +28,9 @@ MathJax = {
 
 A **field** $F$ is a set together  with two laws of composition:
 
-addition: $F \times F \stackrel{+}{\rightarrow} F \quad (a, b \rightarrow a b)$
+- addition: $F \times F \stackrel{+}{\rightarrow} F \quad (a, b \rightarrow a b)$
 
-multiplication: $F \times F \stackrel{\times}{\rightarrow} F \quad (a, b \rightarrow a+b)$ 
+- multiplication: $F \times F \stackrel{\times}{\rightarrow} F \quad (a, b \rightarrow a+b)$ 
 
 that satisfy 3 axioms:
 
@@ -42,7 +42,7 @@ that satisfy 3 axioms:
 
 **Def. 2**
 
-A **subfield** of the field $\mathbb{C}$ (complex numbers) is a subset that is ==closed== under four operations $+, -, \times, \div$ and contains $1$.
+A **subfield** of the field $\mathbb{C}$ (complex numbers) is a subset that is <mark>closed</mark> under four operations $+, -, \times, \div$ and contains $1$.
 
 i.e. $F$ is a subfield of $\mathbb{C}$ if it has following properties:
 
@@ -59,8 +59,9 @@ $$
 > The above implies
 > 1. $0\in F$
 > 2. $F$ is a subgroup of additive group $\mathbb{C^+}$
-> 3. $F \backslash\{0\}$ is a subgroup of the multiplicative group $\mathbb{C^\times}$
+> 3. $F \backslash \{0\}$ is a subgroup of the multiplicative group $\mathbb{C^\times}$
 
 **Def.3**
 
-A **vector space**
+A **vector space** $V$ over a field $F$ is a set together with two laws of composition:
+- addition $V \times V \rightarrow V\quad (a, b \rightarrow a b)$
