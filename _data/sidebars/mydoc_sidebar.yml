@@ -48,7 +48,7 @@ entries:
           output: web
           
         - title: Chapter 3-Vector Spaces
-          url: 
+          url: /algebra_chap3.html
           output: web
 
   # - title: test

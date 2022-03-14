@@ -11,6 +11,8 @@ folder: sites
 ## Recently updated:
 [Algebra(Artin) Chapter 1](algebra_chap1.html)
 
+[Algebra(Artin) Chapter 3](algebra_chap3.html)
+
 [Undergraduate Maths Project](ug_maths_project.html)
 
 [Vector Spaces](vec-space.html)
