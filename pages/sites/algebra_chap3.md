@@ -29,7 +29,7 @@ MathJax = {
 
 A symmetric matrix is uniquely determined by its entries on and above the diagnal. 
 
-One basis is $\left\{e_{i j}+e_{j i}, \forall~ 1 \leqslant i \leqslant j \leqslant n\right\}$
+One basis is $$\left\{e_{i j}+e_{j i}, \forall~ 1 \leqslant i \leqslant j \leqslant n\right\}$$
 
 where $e_{i j}$ is in the usual sense, stands for a $n\times n$ matrix with 1 at $(i, j)$ position and zero elsewhere.
 
