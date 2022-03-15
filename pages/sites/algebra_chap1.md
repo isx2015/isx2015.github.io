@@ -264,7 +264,7 @@ $$
 > 
 > if $A$ and $D$ are square blocks.
 
-Let $M=\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]$, suppose the sizes of $M$ and $A$ are $n$ and $k$. Then the size of $D$ is $n-k$. 
+Let $$M=\left[\begin{array}{cc}A & B \\ 0 & D\end{array}\right]$$, suppose the sizes of $M$ and $A$ are $n$ and $k$. Then the size of $D$ is $n-k$. 
 
 Because $\operatorname{det} M=\sum_{1 \leqslant \mu \leqslant k}(-1)^{\mu+1} a_{\mu 1} \operatorname{det} M_{\mu 1}$ and $\operatorname{det} A \cdot \operatorname{det} D=\sum_{1 \leqslant \mu \leqslant k}(-1)^{\mu+1} a_{\mu_{1}} \operatorname{det} A_{\mu_{1}} \operatorname{det} D$
 
@@ -273,7 +273,7 @@ To prove $\operatorname{det} M=\operatorname{det} A \cdot \operatorname{det} D$,
 To verify this, go through the same expansion recursively. In this process, the sizes of $M$ and $A$ are decreasing because the obtained $M$ and $A$ are minors that have certain row and column deleted.
 
 
-Finally, we reach a matrix in the block form $M=\left[\begin{array}{c|c}a & B_{r} \\ \hline 0 & D\end{array}\right]$, where $a$ is an entry in $A \text{ and } B_{r}$ is a row in $B$.
+Finally, we reach a matrix in the block form $$M=\left[\begin{array}{c|c}a & B_{r} \\ \hline 0 & D\end{array}\right]$$, where $a$ is an entry in $A \text{ and } B_{r}$ is a row in $B$.
 
 It is now obvious that det $M=a \cdot \operatorname{det} D=\operatorname{det} A \cdot \operatorname{det} D$.
 
