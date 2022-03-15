@@ -21,6 +21,13 @@ entries:
       url: /vec-space.html
       output: web, pdf
 
+  - title: Physics
+    output: web, pdf
+    folderitems:
+    - title: 
+      url: 
+      output: web, pdf
+
   - title: Projects
     output: web, pdf
     folderitems:
@@ -28,10 +35,10 @@ entries:
       url: /ug_maths_project.html
       output: web, pdf
 
-  - title: Worked Solutions
+  - title: Solutions
     output: web
     folderitems:
-    - title: Worked solutions to books
+    - title: Solutions to books
       url: /sol_books.html
       output: web
 
