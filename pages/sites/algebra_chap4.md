@@ -78,3 +78,34 @@ Similarly for $T\left(e_{12}\right),T\left(e_{21}\right),T\left(e_{22}\right)$. 
 
 $$A=\left(\begin{array}{llll}a_{11} b_{11} & a_{11} b_{21} & a_{12} b_{11} & a_{12} b_{21} \\ a_{11} b_{12} & a_{11} b_{22} & a_{12} b_{12} & a_{12} b_{22} \\ a_{21} b_{11} & a_{21} b_{21} & a_{22} b_{11} & a_{22} b_{21} \\ a_{21} b_{12} & a_{21} b_{22} & a_{22} b_{12} & a_{22} b_{22}\end{array}\right)$$
 
+**Q2.1**
+
+> Let $A$ be an $n \times n$ matrix. and let $V$ denote the space of $n$-dimensional *row* vectors. What is the matrix of the linear operator "right multiplication by $A$ " with respect to the standard basis of $V$ ?
+
+The standard basis is $\mathbf{E}=\left(e_{1}, \cdots, e_{n}\right)$, 
+
+Let $A=\left(a_{i j}\right)$,
+
+$T\left(e_{j}\right)=e_{j} A=A_{j}$, where $A_{j}$ stands for the j-th row of $A$.
+
+$$
+\Rightarrow T\left(e_{j}\right)=A_{j}=a_{j 1} e_{1}+\cdots+a_{j n} e_{n}=\left(e_{1}, \cdots, e_{n}\right)\left(
+\begin{array}{c}
+a_{j 1} \\
+\vdots \\
+a_{j n}
+\end{array}\right)=\mathbf{E} M_{j}
+$$
+
+$M_{j}$ is the $j$ th column of $M$, the matrix of the linear operator.
+Assemble all $M_{j}$ into columns, we have,
+
+$$
+M=\left(\begin{array}{ccccc}
+a_{11} & \cdots & a_{j 1} & \cdots & a_{n 1} \\
+\vdots & & \vdots & & \vdots \\
+a_{1 n}& \cdots & a_{j n} & \cdots & a_{n n}
+\end{array}\right)
+$$
+
+So $M=A^t$, the transpose of $A$ is the matrix of the linear operator "right multiplication by $A$".
