@@ -78,7 +78,7 @@ Similarly for $T\left(e_{12}\right),T\left(e_{21}\right),T\left(e_{22}\right)$. 
 
 $$A=\left(\begin{array}{llll}a_{11} b_{11} & a_{11} b_{21} & a_{12} b_{11} & a_{12} b_{21} \\ a_{11} b_{12} & a_{11} b_{22} & a_{12} b_{12} & a_{12} b_{22} \\ a_{21} b_{11} & a_{21} b_{21} & a_{22} b_{11} & a_{22} b_{21} \\ a_{21} b_{12} & a_{21} b_{22} & a_{22} b_{12} & a_{22} b_{22}\end{array}\right)$$
 
-**Q2.1**
+**Q2.2**
 
 > Let $A$ be an $n \times n$ matrix. and let $V$ denote the space of $n$-dimensional *row* vectors. What is the matrix of the linear operator "right multiplication by $A$ " with respect to the standard basis of $V$ ?
 
@@ -109,3 +109,14 @@ a_{1 n}& \cdots & a_{j n} & \cdots & a_{n n}
 $$
 
 So $M=A^t$, the transpose of $A$ is the matrix of the linear operator "right multiplication by $A$".
+
+**Q2.3**
+
+> Find all real $2 \times 2$ matrices that carry the line $y=x$ to the line $y=3 x$.
+
+Using the standard basis, any vector on $y=x$ is of the form $k(1,1)^{t}$, under a $2 \times 2$ matrix multiplication,
+
+$$k\left(\begin{array}{ll}a & b \\ c & d\end{array}\right)\left(\begin{array}{l}1 \\ 1\end{array}\right)=k\left(\begin{array}{l}a+b \\ c+d\end{array}\right)$$
+
+To ensure $k(a+b, c+d)^{t}$ is on $y=3x$, simply let $a+b=3(c+d)$. Any $2 \times 2$ real matrices satisfying this rule will work.
+
