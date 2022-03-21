@@ -58,6 +58,10 @@ entries:
           url: /algebra_chap3.html
           output: web
 
+        - title: Chapter 4-Linear Operators
+          url: /algebra_chap4.html
+          output: web
+
   # - title: test
   #   output: web
   #   folderitems:

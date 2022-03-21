@@ -13,6 +13,8 @@ folder: sites
 
 [Algebra(Artin) Chapter 3](algebra_chap3.html)
 
+[Algebra(Artin) Chapter 4](algebra_chap4.html)
+
 [Undergraduate Maths Project](ug_maths_project.html)
 
 [Vector Spaces](vec-space.html)
