@@ -61,9 +61,7 @@ still holds for $X^{\prime}$ and $Y^{\prime}.$
 
 > Let $A$ and $B$ be $2 \times 2$ matrices. Determine the matrix of the operator $T: M \leadsto A M B$ on the space $F^{2 \times 2}$ of $2 \times 2$ matrices, with respect to the basis $\left(e_{11}, e_{12}, e_{21}, e_{22}\right)$ of $F^{2 \times 2}$.
 
-Let 
-
-$$A=\left(\begin{array}{ll}a_{11} & a_{12} \\ a_{21} & a_{22}\end{array}\right), B=\left(\begin{array}{ll}b_{11} & b_{12} \\ b_{21} & b_{22}\end{array}\right)$$
+Let $$A=\left(\begin{array}{ll}a_{11} & a_{12} \\ a_{21} & a_{22}\end{array}\right), B=\left(\begin{array}{ll}b_{11} & b_{12} \\ b_{21} & b_{22}\end{array}\right)$$
 
 By direct calculation, 
 
@@ -73,10 +71,10 @@ $$T\left(e_{12}\right)=\left(\begin{array}{ll}a_{11} b_{21} & a_{11} b_{22} \\ a
 
 $$T\left(e_{22}\right)=\left(\begin{array}{ll}a_{12} b_{21} & a_{12} b_{22} \\ a_{22} b_{21} & a_{22} b_{22}\end{array}\right)$$
 
-So $$T\left(e_{11}\right)=\left(e_{11}, e_{12}, e_{21}, e_{22}\right)\left(\begin{array}{l}a_{11} b_{11} \\ a_{11} b_{12} \\ a_{21} b_{11} \\ a_{21} b_{12}\end{array}\right)=C A_{1}$$
-Where $C$ is the basis. $A_{1}$ is the first column of the matrix of the operator.
+So $$T\left(e_{11}\right)=\left(e_{11}, e_{12}, e_{21}, e_{22}\right)\left(\begin{array}{l}a_{11} b_{11} \\ a_{11} b_{12} \\ a_{21} b_{11} \\ a_{21} b_{12}\end{array}\right)=\mathbf{C} A_{1}$$
+Where $\mathbf{C}$ is the basis, $A_{1}$ is the first column of the matrix of the operator.
 
-Similarly for $T\left(e_{12}\right),T\left(e_{21}\right),T\left(e_{22}\right)$. so the mathix of operator, $A$, is obtained by assembling $A_1,A_2,A_3,A_4$ into the columns of $A$:
+Similarly for $T\left(e_{12}\right),T\left(e_{21}\right),T\left(e_{22}\right)$. so the mathix of operator, $A$, is obtained by assembling $A_1,A_2,A_3,A_4$ into the columns of $A$ by the formula: $T(\mathbf{C})=\mathbf{C}A$
 
 $$A=\left(\begin{array}{llll}a_{11} b_{11} & a_{11} b_{21} & a_{12} b_{11} & a_{12} b_{21} \\ a_{11} b_{12} & a_{11} b_{22} & a_{12} b_{12} & a_{12} b_{22} \\ a_{21} b_{11} & a_{21} b_{21} & a_{22} b_{11} & a_{22} b_{21} \\ a_{21} b_{12} & a_{21} b_{22} & a_{22} b_{12} & a_{22} b_{22}\end{array}\right)$$
 
