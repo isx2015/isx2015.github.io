@@ -22,6 +22,9 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
+## <font color="red">[Finished Report: PDF](../../pdf/10432171_Bifurcations.pdf)</font>
+## <font color="red">[Finished Presentation: PDF](../../pdf/viva610.pdf)</font>
+
 **<font color="#D95319">*****IN PROGRESS*****</font>**
 
 ## Normal form of the bifurcation
