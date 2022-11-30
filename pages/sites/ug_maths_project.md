@@ -22,9 +22,9 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-[Finished Report: PDF](../../pdf/10432171_Bifurcations.pdf)
+# [Finished Report: PDF](../../pdf/10432171_Bifurcations.pdf)
 
-[Finished Presentation: PDF](../../pdf/viva610.pdf)
+# [Finished Presentation: PDF](../../pdf/viva610.pdf)
 
 **<font color="#D95319">*****IN PROGRESS*****</font>**
 
