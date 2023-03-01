@@ -20,7 +20,7 @@ folder: sites
 [Vector Spaces](vec-space.html)
 ## Aims:
 
-To **collect** and **share** what I have learnt.
+To **collect** and **share**
 
 This includes but not limited to subjects such as:
 * **Maths**
@@ -34,9 +34,6 @@ In the forms of:
 * Analysing subtle problems
 * Explaining **why**
 
-As I'm a physics university student, the content will predominantly focus on Maths and Physics.
-
 This website is newly built and is still under constructions...
 
 Please direct to the navigation bar to start...
-
